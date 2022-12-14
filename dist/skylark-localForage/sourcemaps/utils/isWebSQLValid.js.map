@@ -1,0 +1,1 @@
+{"version":3,"sources":["utils/isWebSQLValid.js"],"names":["define","openDatabase"],"mappings":";;;;;;;AAAAA,OAAO,WACH,aAIA,OAHA,WACI,MAA+B,mBAAjBC","file":"../../utils/isWebSQLValid.js","sourcesContent":["define(function () {\n    'use strict';\n    function isWebSQLValid() {\n        return typeof openDatabase === 'function';\n    }\n    return isWebSQLValid;\n});"]}
